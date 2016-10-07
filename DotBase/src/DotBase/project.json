@@ -1,0 +1,36 @@
+{
+  "name": "DotCore.Base",
+  "version": "1.0.1-*",
+  "title": "DotCore.Base",
+  "description": "C# base class library (.Net Core).",
+  "copyright": "Copyright 2016",
+  "authors": [
+    "Harry Y"
+  ],
+
+  "packOptions": {
+    "summary": "C# base class library for .Net Core.",
+    "tags": [
+      "DotNet Core",
+      "CSharp"
+    ],
+    "owners": [
+      "Harry Y"
+    ],
+    "releaseNotes": "Changed the license.",
+    "projectUrl": "https://github.com/harrywye/dotbase",
+    "licenseUrl": "https://github.com/harrywye/dotbase/blob/master/LICENSE",
+    "requireLicenseAcceptance": false
+  },
+
+  "dependencies": {
+    "DotCore.Core": "1.0.1",
+    "NETStandard.Library": "1.6.0"
+  },
+
+  "frameworks": {
+    "netstandard1.4": {
+      "imports": "dnxcore50"
+    }
+  }
+}
